@@ -1,12 +1,25 @@
-package d5scanners_incrementdecrement.d30collections;
+package d30collections;
 
 import java.util.*;
 
 public class Queue01 {
     public static void main(String[] args)  {
-        /*
-        Queue<String> storage = new Queue<String>();
-        storage.add("Tefo");
+
+
+        Queue<String> storage = new LinkedList<>();
+        //add element to the queue
+        storage.add("Milk");
+        storage.add("Meat");
+        storage.add("Egg");
+        storage.add("Baklava");
+        storage.add("Kunefe");
+        storage.add("Fruit");
+        System.out.println(storage);
+        //remove() method removes and return the item at the front of th que (head element)
+        System.out.println(storage.remove());
+        System.out.println(storage);
+
+
 
 
         //2) remove() method: removes and returns the item at the front of the queue (head element)
@@ -26,12 +39,12 @@ public class Queue01 {
 //6) element(): returns the item at the front of the queue, but throws an exception if the queue is empty
 // System.out.println(storage.element()); //NoSuchElementException
 
-
+        //PriorityQueue
         //PriorityQueue is gets comparasion object and acccourding to the that comparasion and sort elements int he object according to the
         //that coparasion
         //PriorityQueue is a queue tool that sorts objects accourding to theri priority order in a FIFO structure.
         //Object with highest prioririty always removed first
-        */
+
 
         PriorityQueue<String> emergencyQueue = new PriorityQueue<>();
 

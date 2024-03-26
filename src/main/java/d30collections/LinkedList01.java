@@ -1,4 +1,4 @@
-package d5scanners_incrementdecrement.d30collections;
+package d30collections;
 
 import java.util.LinkedList;
 

@@ -1,4 +1,4 @@
-package d5scanners_incrementdecrement.d2900p_collections;
+package d2900p_collections;
 
 public interface Engine {
     void eco();

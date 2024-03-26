@@ -1,9 +1,6 @@
-package d5scanners_incrementdecrement.d31queue_maps;
+package d31queue_maps;
 
-import java.util.HashMap;
-import java.util.Hashtable;
-import java.util.LinkedHashMap;
-import java.util.TreeMap;
+import java.util.*;
 
 public class Maps04 {
     /*  Let 's examine the concepts of Thread Safe, Multi Thread, and Synchronized.
@@ -42,10 +39,31 @@ public class Maps04 {
         //but HashMap does take null for keypart for
         HashMap<String, Integer>  stdges = new LinkedHashMap<>();
 
+        //TreeMap
+        //TreeMap keeps data in natural order so thet are very slovly
+        //Null is not  allowed in key part  but you can use bull in value part
+        //it orders according to the keys
+
         TreeMap<String, Integer> cityPlates = new TreeMap<>();
         cityPlates.put("Istanbul", 34);
         cityPlates.put("PA", 56);
         //key purt null is not accepted buy you can use on value part
+
+
+        //LinkedHasMap:
+        //It keeps entries insertion order
+        LinkedHashMap<String, Integer> lhm = new LinkedHashMap<>();
+        lhm.put("Goksen", 20);
+        lhm.put("Derya", 62);
+        lhm.put("Mansuma", 44);
+        System.out.println(lhm);
+
+        for (Map.Entry<String, Integer> entry : lhm.entrySet())
+        {
+            String key = entry.getKey();
+            Integer value = entry.getValue();
+            System.out.println(key + " --> " + value);
+        }
 
 
 

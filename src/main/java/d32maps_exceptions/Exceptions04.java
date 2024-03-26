@@ -1,4 +1,4 @@
-package d5scanners_incrementdecrement.d32maps_exceptions;
+package d32maps_exceptions;
 
 public class Exceptions04 {
     public static void main(String[] args) {

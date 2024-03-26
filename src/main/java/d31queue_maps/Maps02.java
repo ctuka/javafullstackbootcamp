@@ -1,4 +1,4 @@
-package d5scanners_incrementdecrement.d31queue_maps;
+package d31queue_maps;
 
 import java.util.HashMap;
 
